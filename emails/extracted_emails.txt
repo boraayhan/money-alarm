@@ -1,0 +1,68 @@
+From: careers@acme.com
+To: student@example.com
+Subject: Software Engineering Intern – Summer 2027
+
+Hi,
+
+ACME is looking foexperiencer a Software Engineering Intern to join our Austin engineering team for Summer 2027.
+
+As an intern, you will work with engineers to design, implement, test, and deploy software used by millions of customers. You should be comfortable with Python, Java, or C++, and have experience with data structures and algorithms.
+
+Location: Austin, TX (hybrid)
+Duration: May 2027 – August 2027
+Application deadline: November 30, 2026
+
+Apply through our careers portal.
+
+Best,
+ACME University Recruiting
+
+
+--------------------------------------------------
+
+From: newsletter@techweekly.com
+To: student@example.com
+Subject: This Week in Tech
+
+Welcome to this week's TechWeekly newsletter.
+
+Apple announced several new products this week, while several startups raised funding. The semiconductor industry continues to see strong growth.
+
+Read more on our website.
+
+TechWeekly Team
+
+
+--------------------------------------------------
+
+From: jobs@startup.io
+To: student@example.com
+Subject: Backend Engineer – Startup.io
+
+We're hiring a Backend Engineer to help build the infrastructure behind our analytics platform.
+
+You'll design APIs, work with PostgreSQL and Redis, and deploy services using Docker and Kubernetes. We are looking for someone with 2+ years of backend development experience.
+
+Location: Remote – United States
+Employment type: Full-time
+Applications close: October 15, 2026
+
+Salary: $120,000–$160,000
+
+Apply by replying to this email with your resume.
+
+Startup.io Recruiting
+
+
+--------------------------------------------------
+
+From: professor@university.edu
+To: student@example.com
+Subject: Reminder about tomorrow's lecture
+
+Just a reminder that tomorrow's lecture will begin at 10:00 AM in Room 204.
+
+Please remember to bring your homework.
+
+Thanks,
+Professor Smith
