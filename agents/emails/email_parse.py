@@ -9,9 +9,9 @@ import mailbox
 from email.header import decode_header
 import quopri
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-MBOX_PATH = Path(__file__).resolve().parent / "Test.mbox"
-OUTPUT_PATH = PROJECT_ROOT / "emails/extracted_emails.txt"
+EMAILS_DIR = Path(__file__).resolve().parent
+MBOX_PATH = EMAILS_DIR / "Test.mbox"
+OUTPUT_PATH = EMAILS_DIR / "extracted_emails.txt"
 
 def get_subject(subject):
     subject_parts = []

@@ -1,0 +1,10 @@
+To: "moneyalarm1104@gmail.com" <moneyalarm1104@gmail.com>
+From: Keshav Singh <keshavussingh@gmail.com>
+Subject: Email Subject Line
+Content: This is a body text for the email
+
+---- These are dashes
+
+!@#$%^&*()- These are special characters
+
+
