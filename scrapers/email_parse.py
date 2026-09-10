@@ -2,11 +2,16 @@
 # Function: Gets an email from a .mbox file and extracts the subject, sender, and recipient. It also decodes the email content if it is in quoted-printable format.
 
 # Input: Path to .mbox file containing emails
-# Output: .txt file containing the extracted information from the email(s)
+# Output: .txt file containing the extracted information from the email(s) in 
 
+from pathlib import Path
 import mailbox
 from email.header import decode_header
 import quopri
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+MBOX_PATH = Path(__file__).resolve().parent / "Test.mbox"
+OUTPUT_PATH = PROJECT_ROOT / "emails/extracted_emails.txt"
 
 def get_subject(subject):
     subject_parts = []
@@ -19,10 +24,11 @@ def get_subject(subject):
 
     return "".join(subject_parts)
 
-inbox = mailbox.mbox('Test.mbox')
+inbox = mailbox.mbox(MBOX_PATH)
 
 # exports to a txt file
-with open('extracted_emails.txt', 'w') as f:
+OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+with OUTPUT_PATH.open('w') as f:
     for message in inbox:
         f.write(f"To: {message['to']}\n")
         f.write(f"From: {message['from']}\n")

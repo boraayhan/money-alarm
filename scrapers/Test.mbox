@@ -1,0 +1,126 @@
+From 1875918080389258226@xxx Thu Sep 10 04:34:52 +0000 2026
+X-GM-THRID: 1875918080389258226
+X-Gmail-Labels: Inbox,Category Personal,Unread
+Delivered-To: moneyalarm1104@gmail.com
+Received: by 2002:a05:6359:1409:b0:2b3:7673:d52d with SMTP id jw9csp1787772rwb;
+        Wed, 9 Sep 2026 21:34:53 -0700 (PDT)
+X-Received: by 2002:a05:6402:1d4e:b0:6a9:9833:2ecf with SMTP id 4fb4d7f45d1cf-6a99833312fmr2771923a12.10.1789014893043;
+        Wed, 09 Sep 2026 21:34:53 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1789014893; cv=pass;
+        d=google.com; s=arc-20260327;
+        b=Obq1R3smsVyAFGQ/ZEQWq/KAgiO68FRWwJRPi2sxCFCyYANwqwdvtX3iOqc88UqnIO
+         OYSoos/mXVf98fNvSDBxi/HpmdebPpHTvI3SQ3cEJEPCog1FTHYHDnZJOv6GC0JQo+bV
+         bFGRsO3gsHiFc9VUW/QdhFnUIzoKcYQBp+K1msFvhkN59RvTFgVXEMlHaXs68uvlSUMz
+         Vr+MKHvTGDsTnlH/qlTpa039lcx8flccXtWGV/sLu2XzEyHgN5LLCDFk0qlvjWXkfRn7
+         B3I0R5Tffqdr3mYnV8PLlZxYdhyYU1SARGEahIEEYMPL2j+9KOd2xhX9P+yHWA5PPJbN
+         oxUQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=mVJ1mRffBtwT5nqtuXxLPjHG8G7RDOtFdT8TVUq6iSM=;
+        fh=UmG9vfmnJuyFQVI4GEH7JPxmk68oigUHyGzOu2QmO6w=;
+        b=UWjdXB6OWS0waHLxfBunmn80HK8un7z3ccHevVwKLRLUBtQBnxeDrWyqOZ7IwSDhS7
+         WSYRAq6yRSzWpUmF8uKLy5QFg8pGGg7uOBQpJgD1zyF88ciMkspeb7an2hpmSG1ZN5XJ
+         W0w+1uemSccIXr5FgUcgl0F/FQaMNIpWJGrdGscrXI1rDaDXhT4pOfP5EFJPs6DgaKV3
+         mJ2P+ahvhtWueNToHW/JkR9LgrUMpbSa/wLMUUuZG5spMylEbJn4iIbZfsDeuBIKDOFF
+         FqgQ4CQVwiFqyJZB1sQndDXz0YFHfNO6royZh8JXJfVTQJZ3CJkGTNUexaO5HM4bQcw2
+         MOhw==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b="e/aVGjQo";
+       arc=pass (i=1);
+       spf=pass (google.com: domain of keshavussingh@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=keshavussingh@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <keshavussingh@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 4fb4d7f45d1cf-6a7e6bfd66asor4434296a12.1.2026.09.09.21.34.37
+        for <moneyalarm1104@gmail.com>
+        (Google Transport Security);
+        Wed, 09 Sep 2026 21:34:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of keshavussingh@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b="e/aVGjQo";
+       arc=pass (i=1);
+       spf=pass (google.com: domain of keshavussingh@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=keshavussingh@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1789014877; cv=none;
+        d=google.com; s=arc-20260327;
+        b=oL3w9Ky1/6ejUwOi9WT6agXmFko5g7LpHff5M/TO5IY2TwkQukUHWf0MME4VbZ/HIL
+         YnNoC2Uopx2zKvP5v5b+G/7GaXML52CMS5EEYWiA9aqXdDnyzHUuc6gHsBx5xcU3BPDr
+         63GBddUwcJV7NckjfvqzHjNIawffvQ95rD3Spxnp/4wwF3seQTLQbcrMXsxjH6oOCFUU
+         u+rz7xTrd4T74VXMI5mvKvhTyTD5O94QkRF9766CtJLMmg7/gbog14+zHjj2gGqvjiHg
+         +mvzWXwZgkomUfFcRrqAqE8erb5V3QcK33kZHYazKsR4qRHkS2i9JiZmusu8wxcrxSg0
+         VuPg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=mVJ1mRffBtwT5nqtuXxLPjHG8G7RDOtFdT8TVUq6iSM=;
+        fh=UmG9vfmnJuyFQVI4GEH7JPxmk68oigUHyGzOu2QmO6w=;
+        b=YbIeXxplKbtgWnWJRY6YgT+HyemL1cpZXjiqqycFzjzEBQIt1bNvgnDY5PzVZHAw1Z
+         Ob78NzRwGTjBzNDDwMT16BY3qCBCO2K9MLnCjrHwFNzf5Um8MbQ4c5YtWPppIW6CZxdr
+         6r6cawJ5I9TnDWzja7nAZ9CX+bPo3X+A26EdSefOdzbmsqM2USW2NCTCy/4ZESAlnDM7
+         ql9fjzSp3ZzxNcI/gIFu4YTkMoZDdd24I8Wb9FItOCaZ51sPeeHwqPIbS46BNf4g/8hW
+         aWdZDKsr1dfXlo6D/yF/i96mJQfYjhVD9zPmiY/abJMUfOs/c9CwJqba5HQ1U2rFmyw+
+         1wuA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1789014877; x=1789619677; dara=google.com;
+        h=content-type:to:subject:message-id:date:from:mime-version:from:to
+         :cc:subject:date:message-id:reply-to:content-type;
+        bh=mVJ1mRffBtwT5nqtuXxLPjHG8G7RDOtFdT8TVUq6iSM=;
+        b=e/aVGjQovI4a4RWJD8D29e/EkZQPPSdUwdMvlnjBK0gd0sdmHfUpcn3SZdsepkpSE5
+         howT5vXjGb8fBcTQm1qxiALloLaKkKc4rYSQNxiJmrvXaqcQqZlKMx06hcr9+nkrM5fe
+         XvbMltYJJJ9PtXF8ddc6eY8dFp5iPMhjQSQhCakxME89wlGkmaf+PGym0mJ+y1MOTsg/
+         T3kK90ENCgsz3plmm3H840OuDAny59NE/ebJljsz5DOZ/CPf6qxA+1Hb/rbpo6Ox95Yc
+         fKigw8yQ1N9YwSKQRltdMsYPYVV3rS7zEC5PIVR7pr0BbLnGv6djeGus1tjEpChJNPSW
+         wQWw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1789014877; x=1789619677;
+        h=content-type:to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=mVJ1mRffBtwT5nqtuXxLPjHG8G7RDOtFdT8TVUq6iSM=;
+        b=TUogA4+3CyQQNp7Qa0VhMHeqlzhrdVVMaXtjM1WL6buBgX9jQ/C/VzWzolCZrb8e/1
+         ryws/bPWx6RzhDE1GN3RPGxHwyyi3qy5i5AbX6oV98jBk2MP4k6RPpjBvhUAlPlAw6CQ
+         Jf6Wy+/K/quyiMRevgCw6arM4mYsObSin+6DJ60vkBlrd7089KkYbEkgsRtpIYLBFN2r
+         ZX20dIXTHIW9lFwF/nfmJaeGG/KTkfzpc2eibvQsmAn8x7RtjuNacaxWhzw0GY7DO0sm
+         8GIng3K2C2jOftv311xRUL3n19Nd1GJaL+c9l6cXW1DUOlzWqF1Vghou+1RIvbAIQk76
+         nhow==
+X-Gm-Message-State: AFuF++lA+8AD7d0oFPjFs3/HsipFXwcsshc5EGgPdUxf2O5i/pWX/Bfd
+	q/iJsDd2auLlkbiq7bQloPvwMNPrLBXDiaXl67HMAXjdB3ym81sRcXBRPXFfOaSK91s58TkM/cH
+	crVJZb2lkaQJdB57eKMuakh0Y2enaPaqjnjQw
+X-Gm-Gg: AYBFou27a8PI0G3POl2l1XGBueimAXB5abZ7AGKyj+xnwEhpvgxsItLZPzsX84ePGGc
+	2XhzCL9A2v5GFyzKMaIoFKJjeV5eZixWpGeJRov2QfXIpN1sKZo++uhZ4q/n09iOpSh/XcwxZQz
+	Zx6APrZ9w7LuYXen9JafTpZth9nn3YX7D3dIepxmnbYpbT213pKSBUA8ldJdPWcbXJmQqhwsg2W
+	hk2ybjL/rq6NKprKjOjviHodJ5F3quNeOu47n4Mo+F45o6sZKqu6uPr2HUoPYPho3IlqvTpCUQM
+	flQU/GYRB6hwED1f8y3CpDmwXtG4I9O2G70Qt79Mt6Tg1+S/CAE8eXPAZdTDlQVXBc9Bx67sdSn
+	D0FgzLGINQQ==
+X-Received: by 2002:a05:6402:530f:b0:6a8:d72a:3b1c with SMTP id
+ 4fb4d7f45d1cf-6a8d72a3c6amr4941231a12.45.1789014877355; Wed, 09 Sep 2026
+ 21:34:37 -0700 (PDT)
+MIME-Version: 1.0
+From: Keshav Singh <keshavussingh@gmail.com>
+Date: Wed, 9 Sep 2026 23:34:25 -0500
+X-Gm-Features: AcwNN1W6XKJJOQPzsB_rcv4vInHmZwvzddzXv2f8YwD6Auntgm4glkPWeOHWTJI
+Message-ID: <CAEu-4o-yOe2pEh8dK008P7DzoQNpoC+Wv1XdzS7gJcYgEZg--w@mail.gmail.com>
+Subject: Email Subject Line
+To: "moneyalarm1104@gmail.com" <moneyalarm1104@gmail.com>
+Content-Type: multipart/alternative; boundary="0000000000004343d2065b197cd5"
+
+--0000000000004343d2065b197cd5
+Content-Type: text/plain; charset="UTF-8"
+
+This is a body text for the email
+
+---- These are dashes
+
+!@#$%^&*()- These are special characters
+
+--0000000000004343d2065b197cd5
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">This is a body text for the email<div><br></div><div>---- These are dashes</div><div><br></div><div>!@#$%^&amp;*()- These are special characters</div><div><br></div><div><br></div></div>
+
+--0000000000004343d2065b197cd5--
+
